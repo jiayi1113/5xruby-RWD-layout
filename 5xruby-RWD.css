@@ -62,3 +62,8 @@ body{
 .header h2:hover::after{
   width: 75%;
 }
+section{
+  margin: auto;
+  max-width: 1200px;
+  padding: 0 var(--5xruby-col-gap);
+}
