@@ -800,3 +800,71 @@ margin: 10px 0 0 0;
     margin: 10px 0 0 0;
   }
 }
+
+@media screen and (min-width: 1024px){
+  .col-lg-1{ width: 8.333333%; }
+  .col-lg-2{ width: 16.666666%;}
+  .col-lg-3{ width: 25%;       }
+  .col-lg-4{ width: 33.333333%;}
+  .col-lg-5{ width: 41.666666%;}
+  .col-lg-6{ width: 50%;       }
+  .col-lg-7{ width: 58.333333%;}
+  .col-lg-8{ width: 66.666666%;}
+  .col-lg-9{ width: 75%;       }
+  .col-lg-10{ width: 83.333333%;}
+  .col-lg-11{ width: 91.666666%;}
+  .col-lg-12{ width: 100%;      }
+  .teacher .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .teacher .item{
+    height: 600px;
+  }
+  .short-course .row{
+    display: flex;
+  }
+  .soon-course .item{
+    height: 310px;
+  }
+  .soon-course .txt{
+    font-size: 12px;
+  }
+  .learn .row:nth-child(1){
+    width: 70%;
+  }
+  .learn .row{
+    display: flex;
+  }
+  .learn .item{
+    margin: 0;
+  }
+  .share .row .col-md-6:nth-child(3),
+  .share .row .col-md-6:nth-child(4){
+    display: block;
+    border: 1px solid rgba(227, 229, 233); 
+    border-radius: 5px;
+    background-color:#fff;
+    margin: 15px;
+    padding: 20px;
+    line-height: 26px;
+  }
+  .about .information .txt a{
+    margin: 10px 90px 0 0;
+  }
+}
+
+/* @media screen and (min-width: 1200px){
+  .col-xl-1{ width: 8.333333%; }
+  .col-xl-2{ width: 16.666666%;}
+  .col-xl-3{ width: 25%;       }
+  .col-xl-4{ width: 33.333333%;}
+  .col-xl-5{ width: 41.666666%;}
+  .col-xl-6{ width: 50%;       }
+  .col-xl-7{ width: 58.333333%;}
+  .col-xl-8{ width: 66.666666%;}
+  .col-xl-9{ width: 75%;       }
+  .col-xl-10{ width: 83.333333%;}
+  .col-xl-11{ width: 91.666666%;}
+  .col-xl-12{ width: 100%;      }
+} */
