@@ -75,3 +75,8 @@ section{
   box-sizing: border-box;
   padding: 0 var(--5xruby-col-gap);
 }
+.banner img{
+  border-radius: 5px;
+  width: 100%;
+  vertical-align: top;
+}
