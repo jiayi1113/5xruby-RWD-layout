@@ -120,3 +120,127 @@ section{
   line-height:24px;
   color: #394150;
 }
+.teacher{
+  background-color: rgba(249, 250, 251);
+  color: #394150;
+  padding: 0 var(--5xruby-col-gap);
+  margin: 200px 0 0;
+  position: relative;
+}
+.teacher::before{
+  content: "";
+  background-color: rgba(249, 250, 251); 
+  width: 100%;
+  height: 3%;
+  bottom: 100%;
+  clip-path: polygon(30% 0, 100% 100%, 0 100%);
+  position: absolute;
+  left: 0;
+}
+.teacher h3{
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  padding: 50px 0 20px 0;
+}
+.teacher h3::after{
+  content: "";
+  height: 2px;
+  width: 2em;
+  background-color: red;
+  margin: 10px 0 0 0;
+}
+.teacher h4{
+  font-size: 20px;
+  line-height: 30px;
+}
+.teacher .item{
+  background-color: #fff;
+  margin: 30px 0 0;
+  padding: var(--5xruby-col-gap);
+  border-radius: 5px;
+}
+.teacher .pic{
+  text-align: center;
+}
+.teacher .pic img{
+  width: 150px;
+  border-radius: 50%;
+  padding: 30px;
+}
+.teacher .item .top .txt p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.teacher .txt p::after{
+content: "";
+height: 2px;
+width: 40px;
+background-color: red;
+margin: 10px 0 0 0;
+}
+.teacher .txt h4{
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0;
+  text-align: center;
+}
+.teacher .icon{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.teacher .icon img{
+  width: 35px;
+}
+.teacher .icon::after{
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: rgba(227, 229, 233);
+  margin: 10px 0;
+}
+.teacher .item .icon img:hover{
+  filter: brightness(.7);
+}
+.teacher .txt p{
+  font-size: 16px;
+  line-height: 24px;
+  padding: 5px 0;
+}
+.teacher .txt b{
+  font-weight: bold;
+}
+.teacher .txt a{
+  text-decoration: none;
+  color: #ff133e;
+}
+.teacher .txt a:hover{
+  text-decoration: underline;
+}
+.teacher-courses p{
+  padding: 20px 0;
+  display: flex;
+}
+.teacher-courses p::after{
+  content: "";
+  width: 75%;
+  height: 1px;
+  background-color: rgba(227, 229, 233);
+  margin: auto;
+}
+.teacher-courses a{
+  color: #ff133e;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px 10px 10px 0;
+  border: 1px solid #ff133e;
+  display: inline-block;
+}
+.teacher-courses a:hover{
+  background-color: #ff133e;
+  color: #fff;
+}
