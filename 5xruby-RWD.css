@@ -396,3 +396,68 @@ margin: 10px 0 0 0;
   border-left: 8px solid #fff;
   margin: 0 5px;
 }
+.soon-course .item{
+  background-color: #fff;
+  margin: var(--5xruby-col-gap) 60px;
+  border-radius: 5px;
+  border-bottom: 10px solid transparent;
+}
+.soon-course .item:hover{
+  position: relative;
+  bottom: 5px;
+  border-bottom: 10px solid #ff133e;
+}
+.soon-course h3{
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.soon-course .pic img{
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  vertical-align: top;
+}
+.soon-course .date{
+  padding: 20px 10px;
+}
+.soon-course .date span{
+  background-color: #fff;
+  border: 1px solid rgb(227, 229, 231);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  font-size: 14px;
+}
+.soon-course .txt{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.soon-course .txt::before{
+  content: "";
+  height: 2px;
+  width: 90%;
+  background-color: rgba(227, 229, 233);
+}
+.soon-course .txt .left{
+  display: flex;
+  align-items: center;
+  color: rgb(143, 147, 151);
+}
+.soon-course .txt .left img{
+  width: 15%;
+}
+.soon-course .item .txt .right{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #ff133e;
+}
+.soon-course .txt .right img{
+  width: 20%;
+}
+.soon-course .btn{
+  padding: 40px 0 80px;
+}
