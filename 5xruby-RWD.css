@@ -678,3 +678,11 @@ margin: 10px 0 0 0;
 .about .icon a img:hover{
   filter: brightness(1.5);
 }
+.footer{
+  background-color: rgb(25, 35, 44);
+  padding: 20px 0;
+}
+.footer p{
+  color: rgb(161, 163, 165);
+  font-size: 14px;
+  text-align: center;
