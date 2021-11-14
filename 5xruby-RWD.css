@@ -545,3 +545,39 @@ margin: 10px 0 0 0;
 }
 .learn span:hover{
   text-decoration: underline;
+}
+.share{
+  padding: 100px var(--5xruby-col-gap);
+}
+.share h2{
+  color: #394150;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+.share h2::after{
+  content: "";
+  height: 2px;
+  width: 2em;
+  background-color: red;
+  margin: 10px 0 0 0;
+}
+.share .col-12{
+  display: none;
+}
+.share .row .col-12:nth-child(1){
+  display: block;
+  border: 1px solid rgba(227, 229, 233); 
+  border-radius: 5px;
+  background-color:#fff;
+  margin: 15px 0;
+  padding: 20px;
+  line-height: 26px;
+}
+.share .item img{
+  max-width: 40px;
+  padding: 0 0 0 90%;
+}
