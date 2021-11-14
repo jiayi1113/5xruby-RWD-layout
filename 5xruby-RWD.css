@@ -281,3 +281,19 @@ margin: 10px 0 0 0;
   font-weight: normal;
   padding: 10px 0 20px 0;
 }
+.btn{
+  text-align: center;
+  padding: 50px 0 200px;
+}
+.btn a{
+  font-size: 18px;
+  font-weight:normal;
+  text-decoration: none;
+  background-color: #ff133e;
+  padding: 15px 30px;
+  border-radius: 5px;
+  color: #fff;
+}
+.news .btn a:hover{
+  background-color: rgb(180, 48, 48);
+}
