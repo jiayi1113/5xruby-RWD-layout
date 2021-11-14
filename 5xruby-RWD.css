@@ -80,3 +80,43 @@ section{
   width: 100%;
   vertical-align: top;
 }
+.intro h2{
+  font-size: 24px;
+  font-weight: bold;
+  padding: 30px 0;
+  text-align: center;
+  margin: 0 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro h2::after{
+  content: "";
+  height: 2px;
+  width: 2em;
+  background-color: red;
+  margin: 10px 0 0 0;
+}
+.intro img{
+  width: 55%;
+  padding: 20px;
+}
+.intro h3{
+  font-size: 20px;
+  text-align: center;
+  color: #394150;
+}
+.intro .pic{
+  margin: auto;
+  text-align: center;
+}
+.intro .txt h3{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.intro .txt p{
+  text-align: center;
+  line-height:24px;
+  color: #394150;
+}
