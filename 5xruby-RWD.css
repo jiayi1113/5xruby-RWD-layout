@@ -343,3 +343,56 @@ margin: 10px 0 0 0;
   font-size: 20px;
   line-height: 30px;
 }
+.course-list{
+  background-color: #ff133e;
+  position: relative;
+  padding: 30px var(--5xruby-col-gap);
+  margin: 100px 0 100px 40px;
+}
+.course-list::before{
+  content: "";
+  background-color: #ff133e;
+  width: 100%;
+  height: 15%;
+  bottom: 100%;
+  clip-path: polygon(70% 0, 100% 100%, 0 100%);
+  position: absolute;
+  left: 0;
+}
+.course-list::after{
+  content: "";
+  background-color: #ff133e;
+  width: 100%;
+  height: 15%;
+  top: 100%;
+  clip-path: polygon(0 0, 30% 100%, 100% 0);
+  position: absolute;
+  left: 0;
+}
+.course-list h3{
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+.course-list p{
+  color: #fff;
+  line-height: 28px;
+  margin: 20px 0;
+}
+.course-list a{
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  padding: 5px;
+}
+.course-list a:hover{
+  text-decoration: underline;
+}
+.course-list a::after{
+  content: "";
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid #fff;
+  margin: 0 5px;
+}
