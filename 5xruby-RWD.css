@@ -67,3 +67,7 @@ section{
   max-width: 1200px;
   padding: 0 var(--5xruby-col-gap);
 }
+.row{
+  margin-left: calc( var(--5xruby-col-gap) * -1);
+  margin-right: calc( var(--5xruby-col-gap) * -1);
+}
