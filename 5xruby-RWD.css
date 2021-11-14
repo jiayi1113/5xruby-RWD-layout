@@ -705,6 +705,7 @@ margin: 10px 0 0 0;
 .col-10{ width: 83.333333%;}
 .col-11{ width: 91.666666%;}
 .col-12{ width: 100%;      }
+
 @media screen and (min-width: 768px){
   .col-md-1{ width: 8.333333%; }
   .col-md-2{ width: 16.666666%;}
@@ -718,5 +719,84 @@ margin: 10px 0 0 0;
   .col-md-10{ width: 83.333333%;}
   .col-md-11{ width: 91.666666%;}
   .col-md-12{ width: 100%;      }
-
+  .intro h2{
+    margin: 0;
+    font-size: 30px;
+  }
+  .intro .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .teacher .item .top,
+  .news .row,
+  .soon-course .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .teacher .row:nth-child(1){
+    width: 80%;
+    margin: auto;
+  }
+  .teacher h3,
+  .news h2,
+  .short-course h2,
+  .learn h2,
+  .share h2,
+  .article h2
+  {
+    font-size: 30px;
+  }
+  .teacher .item .top .txt{
+    padding: 40px 0 0 0;
+  }
+  .teacher .item .top .txt p{
+    align-items:flex-start;
+  }
+  .teacher .icon{
+    justify-content: flex-start;
+  }
+  .teacher .icon::after{
+    content: none;
+  }
+  .teacher .top,
+  .share .row,
+  .article .row{
+    display: flex;
+  }
+  .teacher .top::after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: rgba(227, 229, 233);
+    margin: 10px 0;
+  }
+  .soon-course .item{
+    margin: 10px 0 ;
+  }
+  .soon-course .txt{
+    font-size: 14px;
+  }
+  .soon-course h3{
+    font-size: 24px;
+  }
+  .learn p{
+    font-size: 20px;
+  }
+  .learn .item{
+    margin: 30px 20%;
+  }
+  .share .row .col-md-6:nth-child(1),
+  .share .row .col-md-6:nth-child(2){
+    display: block;
+    border: 1px solid rgba(227, 229, 233); 
+    border-radius: 5px;
+    background-color:#fff;
+    margin: 15px;
+    padding: 20px;
+    line-height: 26px;
+  }
+  .about .information .txt a{
+    margin: 10px 0 0 0;
+  }
 }
