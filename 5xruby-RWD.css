@@ -71,3 +71,7 @@ section{
   margin-left: calc( var(--5xruby-col-gap) * -1);
   margin-right: calc( var(--5xruby-col-gap) * -1);
 }
+[class*="col-"]{
+  box-sizing: border-box;
+  padding: 0 var(--5xruby-col-gap);
+}
