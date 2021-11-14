@@ -686,3 +686,10 @@ margin: 10px 0 0 0;
   color: rgb(161, 163, 165);
   font-size: 14px;
   text-align: center;
+} 
+.messenger img{
+  max-width: 80px;
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+}
