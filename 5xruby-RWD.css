@@ -175,11 +175,11 @@ section{
   align-items: center;
 }
 .teacher .txt p::after{
-content: "";
-height: 2px;
-width: 40px;
-background-color: red;
-margin: 10px 0 0 0;
+  content: "";
+  height: 2px;
+  width: 40px;
+  background-color: red;
+  margin: 10px 0 0 0;
 }
 .teacher .txt h4{
   font-size: 18px;
